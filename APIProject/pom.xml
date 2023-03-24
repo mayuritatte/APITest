@@ -33,7 +33,7 @@
                 <version>2.18.1</version>
                 <configuration>
                     <suiteXmlFiles>
-                        <suiteXmlFile>testng_api_reqres.xml</suiteXmlFile>
+                        <suiteXmlFile>testng_api.xml</suiteXmlFile>
                     </suiteXmlFiles>
                 </configuration>
             </plugin>
@@ -60,6 +60,20 @@
 </dependency>
 
   
+  <!-- https://mvnrepository.com/artifact/org.testng/testng -->
+
+<dependency>
+
+    <groupId>org.testng</groupId>
+
+    <artifactId>testng</artifactId>
+
+    <version>7.0.0</version>
+
+    <scope>test</scope>
+
+</dependency>
+
   
 
   
